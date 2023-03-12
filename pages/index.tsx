@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Clarity AI</title>
+        <title>Portal</title>
         <meta
           name="description"
-          content="AI-powered search."
+          content="AI-powered search Portal."
         />
         <meta
           name="viewport"
@@ -30,20 +30,11 @@ export default function Home() {
       <div className="h-screen overflow-auto bg-[#18181C] text-[#D4D4D8]">
         <a
           className="absolute top-0 right-12 p-4 cursor-pointer"
-          href="https://twitter.com/mckaywrigley"
+          href="https://twitter.com/sorokinvld"
           target="_blank"
           rel="noreferrer"
         >
           <IconBrandTwitter />
-        </a>
-
-        <a
-          className="absolute top-0 right-2 p-4 cursor-pointer"
-          href="https://github.com/mckaywrigley/clarity-ai"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IconBrandGithub />
         </a>
 
         {answer ? (
